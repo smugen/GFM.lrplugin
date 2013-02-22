@@ -1,0 +1,9 @@
+{
+  "name": "GFM.lrplugin",
+  "description": "Github flavored markdown LiveReload plugin",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "gh-markdown-cli": "git+https://bitbucket.org/smugen/gh-markdown-cli.git"
+  }
+}

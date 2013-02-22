@@ -1,0 +1,20 @@
+{
+  "LRCompilers": [
+    {
+      "Name": "GFM",
+      "Extensions": [
+        "md"
+      ],
+      "DestinationExtension": "html",
+      "CommandLine": [
+        "$(node)",
+        "$(plugin)/node_modules/gh-markdown-cli/bin/mdown",
+        "-i",
+        "$(src_path)",
+        "-o",
+        "$(dst_path)"
+      ],
+      "RunIn": "$(src_dir)"
+    }
+  ]
+}
